@@ -1,0 +1,48 @@
+main {
+    font-family: Arial;
+    margin: auto;
+    width: 550px;
+}
+
+section {
+    border: 1px solid grey;
+    border-radius: 6px;
+    margin-top: 10px;
+    padding: 20px 30px 20px 20px;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    margin-right: 20px;
+}
+
+td.city-name {
+    width: 200px;
+}
+
+td.temperature {
+    width: 100px;
+}
+
+td button {
+    float: right;
+}
+
+#search button {
+    float: right;
+}
+
+#search input[type=text] {
+    width: 300px;
+}
+
+#list > button {
+    font-size: large;
+    cursor: pointer;
+    float: right;
+    border: none;
+    background-color: white;
+}
